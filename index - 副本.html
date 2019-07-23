@@ -1,0 +1,424 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Target Re-Identification and Multi-Target Multi-Camera Tracking</title>
+
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="stylesheets/github-light.css">
+
+
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>ReID and MTMCT</h1>
+      <!--
+        <p><b>Target Re-Identification and <br />Multi-Target Multi-Camera Tracking</b><br />
+        A workshop in conjunction with CVPR17</p>
+        -->
+
+      <img src="img/eg_duke.png" class="figure-img img-fluid img-rounded" alt="duke">
+      <img src="img/eg_mars.jpg" class="figure-img img-fluid img-rounded" alt="duke">
+      <!--<img src="img/eg_duke.png" class="figure-img img-fluid img-rounded" alt="duke">-->
+      <br><br>
+      <p><b>Dates</b>:<br /> Paper submission deadline:
+        <strike>2017 April 1</strike> <strong>2017 April 7 (11:59 pm PST)</strong> <br /> Rebuttal period: 2017 April 17-21
+        <strike>10-14</strike><br /> Camera ready deadline: 2017 April 27<br /><strong>Workshop data: July 21, 2017</strong>
+      </p>
+
+      <p><b>Navigation:</b>
+        <ul style="margin-top:-10px;">
+          <li><a href="#program">Program</a></li>
+          <li><a href="#cfp">Call for papers</a></li>
+          <li><a href="#motivation">Problem definition and motivation</a></li>
+          <li><a href="#submission">Submission</a></li>
+          <li><a href="#invited">Keynote speakers</a></li>
+          <li><a href="#people">People involved</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </p>
+    </header>
+    <section>
+
+      <!--        <h2>
+
+<br>A workshop in conjunction with CVPR 2017</h2>-->
+      <h2>1st Workshop on</h2>
+      <h1 style="margin-top:-10px">
+        Target Re-Identification and <br/>Multi-Target Multi-Camera Tracking<br>
+      </h1>
+      <hr />
+
+      <h3>In conjunction with CVPR 2017<br/> July 2017, Honolulu</h3>
+
+      <p>This workshop brings together researchers from two subfields of computer vision that have seen growing activity in
+        the past few years: Target Re-Identification (ReID) and Multi-Target Multi-Camera Tracking (MTMCT). This workshop
+        explores opportunities for cross-fertilization between these two thriving and important subfields of computer vision
+        and aims to deepen discussions on future directions.<br></p>
+
+      <hr />
+
+      <br>
+      <h3>
+        <a id="program" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Program</h3>
+
+      <table style="margin-top: 10px;">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td style="width:15%; text-align:center">Start Time</td>
+          <td style="width:40%; text-align:center;">Paper/Talk Title</td>
+          <td>Speaker/Author(s)</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">8:45</td>
+          <td>Welcome</td>
+          <td style="text-align:center;">-</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">9:00</td>
+          <td>Invited Talk: Towards Learning Universal Feature Representations for Person Search</td>
+          <td>Xiaogang Wang (Chinese University of Hong Kong)</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">9:30</td>
+          <td>Invited Talk: MOTChallenge: Unifying Detection and Multi-Target Tracking Benchmarks</td>
+          <td>Laura Leal-Taixé, Anton Milan (Technical University Munich, University of Adelaide)</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">10:00</td>
+          <td>Track-Clustering Error Evaluation for Track-Based Multi-Camera Tracking System Employing Human Re-identification</td>
+          <td>Chih-Wei Wu, Meng-Ting Zhong, Yu Tsao, Shao-wen Yang, Yen-kuang Chen, Shao-Yi Chien</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">10:15</td>
+          <td>DukeMTMC4ReID: A Large-Scale Multi-Camera Person Re-Identification Dataset</td>
+          <td>Mengran Gou, Srikrishna Karanam, Wenqian Liu, Octavia Camps, Richard Radke</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">10:30</td>
+          <td>Morning Break</td>
+          <td style="text-align:center;">-</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">11:00</td>
+          <td>Invited Talk: Learning to Segment Moving Objects</td>
+          <td>Cordelia Schmid (INRIA)</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">11:30</td>
+          <td>Invited Talk: How Far Are We From Real-World Person Re-Identification</td>
+          <td>Ziyan Wu (Siemens)</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">12:00</td>
+          <td>Person Re-Identification by Deep Learning Attribute-Complementary Information</td>
+          <td>Arne Schumann, Rainer Stiefelhagen</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">12:15</td>
+          <td>Towards a Principled Integration of Multi-Camera Re-Identification and Tracking through Optimal Bayes Filters</td>
+          <td>Lucas Beyer, Stefan Breuers, Vitaly Kurin, Bastian Leibe</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">12:30</td>
+          <td>Lunch Break</td>
+          <td style="text-align:center;">-</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">14:00</td>
+          <td>Invited Talk: Asymmetrical Person Re-Identification</td>
+          <td>Wei-Shi Zheng (Sun Yat-sen University)</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">14:30</td>
+          <td>Invited Talk: Practices of Large-Scale Target Re-Identification</td>
+          <td>Xian-Sheng Hua (Alibaba)</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">15:00</td>
+          <td>Spotlights</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">-</td>
+          <td>Video-based Person Re-identification by Deep Feature Guided Pooling</td>
+          <td>Youjiao Li, Li Zhuo, Jiafeng Li, Jing Zhang, Xi Liang, Qi Tian</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">-</td>
+          <td>A Dataset for Persistent Multi-Target Multi-Camera Tracking in RGB-D</td>
+          <td>Ryan Layne, Sion Hannuna, Massimo Camplani, Jake Hall, Timothy Hospedales, Tao Xiang, Majid Mirmehdi, Dima Damen</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">-</td>
+          <td>Trajectory Ensemble: Multiple Persons Consensus Tracking across Non-overlapping Multiple Cameras over Randomly
+            Dropped Camera Networks</td>
+          <td>Yasutomo Kawanishi, Daisuke Deguchi, Ichiro Ide, Hiroshi Murase</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">-</td>
+          <td>Deep Spatial-Temporal Fusion Network for Video-Based Person Re-Identification</td>
+          <td>Lin Chen, Hua Yang, Ji Zhu, Qin Zhou, Shuang Wu, Zhiyong Gao</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">15:30</td>
+          <td>Afternoon Break (Poster Session)</td>
+          <td style="text-align:center;">-</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">16:15</td>
+          <td>Invited Talk: Multi-Target Tracking in Non-Overlapping Cameras Using Constraint Dominant Sets</td>
+          <td>Mubarak Shah (University of Central Florida)</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">16:45</td>
+          <td>Invited Talk:  Scalability in Camera Networks: Leveraging the Network for Person Re-Identification</td>
+          <td>Amit Roy-Chowdhury (University of California Riverside)</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">17:15</td>
+          <td>Panel Discussion</td>
+          <td>Moderator: Carlo Tomasi, Duke University<br>Panelists<br>Shaogang Gong, Queen Mary University of London<br>
+Laura Leal-Taixé, Technical University Munich<br>
+Anton Milan, University of Adelaide<br>
+Amit K. Roy Chowdhury, University of California Riverside<br>
+Mubarak Shah, University of Central Florida<br>
+Ziyan Wu, Siemens<br>
+Wei-Shi Zheng, Sun Yat-Sen University<br>
+Octavia Camps, Northeastern University<br>
+Xiaogang Wang, Chinese University of Hong Kong<br>
+</td>
+        </tr>
+
+        <tr>
+          <td style="text-align:center;">17:55</td>
+          <td>Closing Remarks</td>
+          <td style="text-align:center;">-</td>
+        </tr>
+
+      </table>
+
+      <br>
+
+
+
+      <h3>
+        <a id="cfp" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Call
+        for papers</h3>
+      This one day workshop will host invited speakers, poster sessions and oral presentations. We encourage authors to explore
+      pollination between the fields of ReID and MTMCT and take on research questions, rather than just obtaining state-of-the-art
+      results on benchmarks. Examples of such questions are:<br>
+      <ul>
+        <li>How much do initial detections influence MTMCT or ReID?</li>
+        <li>How and which ReID descriptors can be used by MTMCT systems?</li>
+        <li>What can we learn by evaluating a MTMCT system in terms of ReID, and vice-versa?</li>
+        <li>What makes these problems hard (and easy)?</li>
+        <li>How can ReID and MTMCT benefit each other?</li>
+        <li>How can MTMCT and ReID capitalize on recent large-scale datasets?</li>
+        <li>How to deal with large-scale indexing/optimization in ReID and MTMCT?</li>
+        <li>Do we need largely annotated datasets for ReID and MTMCT?</li>
+        <li>Do semantic attributes help in matching identities in ReID and MTMCT?</li>
+        <li>How can re-ranking schemes improve ReID performance?</li>
+      </ul>
+
+      <h3>
+        <a id="motivation" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Problem
+        definitions and motivation</h3>
+      Let a query be an image that tightly bounds a single instance of a target of interest (people, vehicles, etc.). Assume that
+      a gallery contains images of several targets in this format as well as distractor images with arbitrary content. <i>Target re-identification</i>      retrieves all and only the gallery images of the same target as the query.
+      <br><br> Given a set of videos taken by multiple cameras, <i>multi-target multi-camera tracking</i> places tight bounding
+      boxes around all targets in the videos and partitions the boxes into sets called trajectories. A trajectory is the
+      set of all boxes that bound a unique target, ordered by time.
+      <br><br> These two problems are clearly different. However, they share several common aspects as well. <a href="#motivation"
+        id="toggle-link">Here</a>, you can find some of the (dis)similarities that we could think of. Can you come up with
+      more?
+      <br><br>
+      <div id="dis-similarities" style="display: none">
+        <b>Some differences:</b>
+        <ul>
+          <li>The gallery in target re-identification may or may not be a set of videos and both targets and queries are assumed
+            to have been isolated ahead of time. The input to multi-target multi-camera tracking on the other hand is necessarily
+            a set of videos.</li>
+          <li>Multi-target multi-camera tracking matches all targets symmetrically while target re-identification distinguishes
+            between query and response explicitly.</li>
+        </ul>
+
+        <b>Some similarities:</b>
+        <ul>
+          <li>They assume a semantic notion of “identity” in that only ground truth can tell if the targets in two bounding boxes
+            share the same identity.</li>
+          <li>They could benefit from a detector that separates targets from non-targets.</li>
+          <li>When the gallery in target re-identification is a set of videos, both problems can use similar pre-processing techniques.
+            These might rely on knowing the camera topology, considering time elapsed between observations, modeling changes
+            in illumination and viewpoint across cameras, etc.</li>
+          <li>Both problems require annotated databases of videos or images and some databases can work for both problems.</li>
+          <li>Some components of the solution to either problem can be used to solve the other.</li>
+        </ul>
+      </div>
+
+
+      <h3>
+        <a id="submission" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Submission</h3>
+      <p>
+        To submit a new paper to the workshop, you have to do so through the <a href="https://cmt3.research.microsoft.com/REIDMTMCT2017">CMT website</a>.
+        The workshop paper submissions should be in the same format as the main conference. Please refer to the <a href="http://cvpr2017.thecvf.com/submission/main_conference/author_guidelines">CVPR 2017 author guidelines</a>        for more details.
+      </p>
+
+      <h3>
+        <a id="invited" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Invited
+        speakers
+      </h3>
+
+      <img src="img/wang.jpg" height="60px" style="float: left; margin-right: 10px;" />
+      <p><b>Xiaogang Wang </b> </br>
+        Chinese University of Hong Kong</p>
+
+      <img src="img/leal-taixe.jpg" height="60px" style="float: left; margin-right: 10px;" />
+      <p><b>Laura Leal-Taixé</b></br>
+        Technical University Munich</p>
+
+      <img src="img/milan.jpg" height="60px" style="float: left; margin-right: 10px;" />
+      <p><b>Anton Milan</b></br>
+        University of Adelaide</p>
+
+      <img src="img/schmid.jpg" height="60px" style="float: left; margin-right: 10px;" />
+      <p><b>Cordelia Schmid</b></br>
+        INRIA</p>
+
+      <img src="img/ZiyanWu.jpg" height="60px" style="float: left; margin-right: 10px;" />
+      <p><b>Ziyan Wu </b></br>
+        Siemens</p>
+
+      <img src="img/zheng.jpg" height="60px" style="float: left; margin-right: 10px;" />
+      <p><b>Wei-Shi Zheng</b></br>
+        Sun Yat-sen University</p>
+
+      <img src="img/XianshengHua.jpg" height="60px" style="float: left; margin-right: 10px;" />
+      <p><b>Xian-Sheng Hua</b></br>
+        Alibaba</p>
+
+      <img src="img/shah.jpg" height="60px" style="float: left; margin-right: 10px;" />
+      <p><b>Mubarak Shah</b></br>
+        University of Central Florida</p>
+
+      <img src="img/roy-chowdhury.jpg" height="60px" style="float: left; margin-right: 10px;" />
+      <p><b>Amit Roy-Chowdhury </b> </br>
+        University of California Riverside</p>
+
+
+      <b></b><br>
+      <h3>
+        <a id="people" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>People
+        involved
+      </h3>
+      <b>Organizers:</b><br>
+      <img src="img/cucchiara.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <img src="img/gao.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <img src="img/gong.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <img src="img/huang.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <img src="img/ristani.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <img src="img/solera.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <img src="img/tian.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <img src="img/tomasi.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <br> Rita Cucchiara (University of Modena and Reggio Emilia)<br> Wen Gao (Peking University)<br> Shaogang Gong (Queen
+      Mary University of London)<br> Thomas S. Huang (University of Illinois Urbana-Champaign)<br> Ergys Ristani (Duke University)<br>      Francesco Solera (University of Modena and Reggio Emilia)<br> Qi Tian (University of Texas at San Antonio)<br> Carlo
+      Tomasi (Duke University)<br><br>
+
+      <b>Program committee chairs:</b><br>
+      <img src="img/calderara.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <img src="img/snoek.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <img src="img/jwang.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <img src="img/zhang.jpg" class="figure-img img-fluid img-rounded" alt="" height="60px;">
+      <br/> Simone Calderara (University of Modena and Reggio Emilia)<br> Cees G.M. Snoek (University of Amsterdam)<br> Jingdong
+      Wang (Microsoft Research)<br> Shiliang Zhang (Peking University)<br><br>
+
+      <b>Program committee members:</b> Horst Bischof, Roman Pflugfelder, Octavia Camps, Amit Roy-Chowdhury, Andrea Cavallaro,
+      Peter Roth, Chen Change Loy, Ling Shao, Dimitrios Makris, Slawomir Bak, Ratnesh Kumar, Gerard Medioni, Xinchao Wang,
+      Christian Micheloni, Liang Zheng and Vittorio Murino.<br><br>
+
+      <!--<table>
+  <tr><td>Horst Bischof</td><td>Roman Pflugfelder</td></tr>
+  <tr><td>Octavia Camps</td><td>Amit Roy-Chowdhury</td></tr>
+  <tr><td>Andrea Cavallaro</td><td>Peter Roth</td></tr>
+  <tr><td>Chen Change Loy</td><td>Ling Shao</td></tr>
+  <tr><td>Gerard Medioni</td><td>Xinchao Wang</td></tr>
+  <tr><td>Christian Micheloni</td><td>Liang Zheng</td></tr>
+  <tr><td>Vittorio Murino</td><td></td></tr>
+</table>
+-->
+
+      <h3>
+        <a id="contact" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
+      For any information, please send an <a href="mailto:francesco.solera@unimore.it;ristani@cs.duke.edu;jingdw@microsoft.com">e-mail</a>      to Ergys Ristani, Francesco Solera and Jingdong Wang.
+
+    </section>
+    <footer>
+
+    </footer>
+  </div>
+  <script src="./scripts/jquery-3.1.1.min.js"></script>
+  <!--<script src="./javascripts/scale.fix.js"></script>-->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-89846544-1', 'auto');
+    ga('send', 'pageview');
+
+
+    $("#toggle-link").click(function () {
+      $("#dis-similarities").toggle("slow");
+    });
+  </script>
+
+</body>
+
+</html>
